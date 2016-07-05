@@ -1,0 +1,12 @@
+body {
+	text-align: center;
+}
+
+img {
+	max-width: 200px;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+}

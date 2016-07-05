@@ -1,0 +1,30 @@
+{
+  "name": "spin-nginx-website",
+  "version": "0.0.1",
+  "description": "This is a very simple demo site, used to show you how you might use sping-nginx to deploy your fully-tested website, with zero-downtime.",
+  "scripts": {
+    "test": "node test.js --domain=$DOMAIN --port=$PORT --config=$CONFIG",
+    "build": "node build.js --domain=$DOMAIN --port=$PORT --config=$CONFIG",
+    "start": "node serve.js --domain=$DOMAIN --port=$PORT --config=$CONFIG",
+    "isup": "sleep 2 && tape isup.js --domain=$DOMAIN --port=$PORT --config=$CONFIG"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobiaslabs/spin-nginx-example-website.git"
+  },
+  "config": {
+    "nginxConfigFile": ".nginx.conf"
+  },
+  "author": "saibotsivad",
+  "license": "VOL",
+  "bugs": {
+    "url": "https://github.com/tobiaslabs/spin-nginx-example-website/issues"
+  },
+  "homepage": "https://github.com/tobiaslabs/spin-nginx-example-website#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "minimist": "^1.2.0",
+    "request": "^2.72.0",
+    "tape": "^4.6.0"
+  }
+}
