@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tobiaslabs/spin-nginx-example-website.git"
+    "url": "git+https://github.com/saibotsivad/spin-nginx-example-website.git"
   },
   "config": {
-    "nginxConfigFile": ".nginx.conf"
+    "nginxConfigurationFile": ".nginx.conf"
   },
   "author": "saibotsivad",
   "license": "VOL",
   "bugs": {
-    "url": "https://github.com/tobiaslabs/spin-nginx-example-website/issues"
+    "url": "https://github.com/saibotsivad/spin-nginx-example-website/issues"
   },
-  "homepage": "https://github.com/tobiaslabs/spin-nginx-example-website#readme",
+  "homepage": "https://github.com/saibotsivad/spin-nginx-example-website#readme",
   "dependencies": {
     "express": "^4.14.0",
     "minimist": "^1.2.0",
